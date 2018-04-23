@@ -1,8 +1,8 @@
 import React from 'react';
 import { IndexRoute, Route } from 'react-router';
 
-import App from '../../../app/browser/App';
-import HomeView from './HomeView';
+import App from '../../app/containers/App';
+import HomeView from './containers/HomeView';
 
 export default function createRoutes(/* getState */) {
   return (

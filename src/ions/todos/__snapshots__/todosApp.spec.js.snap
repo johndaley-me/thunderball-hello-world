@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`todos app integration client side renders /todos 1`] = `
+<div>
+  <div>
+    Helmet Mock
+    Object {
+  "htmlAttributes": Object {
+    "lang": "en",
+  },
+  "link": Array [
+    Object {
+      "href": Object {},
+      "rel": "shortcut icon",
+      "type": "image/png",
+    },
+    Object {
+      "href": "//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic",
+      "rel": "stylesheet",
+    },
+    Object {
+      "href": "//cdn.rawgit.com/necolas/normalize.css/master/normalize.css",
+      "rel": "stylesheet",
+    },
+    Object {
+      "href": "//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css",
+      "rel": "stylesheet",
+    },
+  ],
+  "meta": Array [],
+  "titleTemplate": "%s - Thunderball Hello World",
+}
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="column"
+      >
+        <div>
+          <div>
+            Helmet Mock
+            Object {
+  "title": "TODO",
+}
+          </div>
+          <div>
+            <h1>
+              <span>
+                TODO
+              </span>
+            </h1>
+            <div>
+              <form>
+                <input
+                  value=""
+                />
+                <button
+                  type="submit"
+                >
+                  Add Todo
+                </button>
+              </form>
+            </div>
+            <div>
+              <div>
+                <input
+                  id="todo-0"
+                  type="checkbox"
+                />
+                <label
+                  class="label-inline"
+                  for="todo-0"
+                >
+                  Test AddTodo
+                </label>
+              </div>
+              <div>
+                <input
+                  id="todo-1"
+                  type="checkbox"
+                />
+                <label
+                  class="label-inline"
+                  for="todo-1"
+                >
+                  Test AddTodo 2
+                </label>
+              </div>
+            </div>
+            <div>
+              <span>
+                Show: 
+              </span>
+              <button
+                disabled=""
+                style="margin-left: 4px;"
+              >
+                All
+              </button>
+              <button
+                style="margin-left: 4px;"
+              >
+                Active
+              </button>
+              <button
+                style="margin-left: 4px;"
+              >
+                Completed
+              </button>
+            </div>
+            <hr />
+            <a
+              href="/"
+            >
+              Home
+            </a>
+             
+            &gt; Todos
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`todos app integration server side rendering renders /todos 1`] = `
+Object {
+  "config": Object {},
+  "device": Object {
+    "host": "",
+    "platform": "",
+  },
+  "routing": Object {
+    "locationBeforeTransitions": Object {
+      "action": "POP",
+      "hash": "",
+      "key": null,
+      "pathname": "/",
+      "query": Object {},
+      "search": "",
+      "state": undefined,
+    },
+  },
+  "todos": Array [
+    Object {
+      "completed": false,
+      "id": 0,
+      "text": "Test AddTodo",
+    },
+    Object {
+      "completed": true,
+      "id": 1,
+      "text": "Test AddTodo 2",
+    },
+  ],
+  "visibilityFilter": "SHOW_ALL",
+}
+`;
+
+exports[`todos app integration server side rendering renders /todos 2`] = `
+<div>
+  <div>
+    Helmet Mock
+    Object {
+  "htmlAttributes": Object {
+    "lang": "en",
+  },
+  "link": Array [
+    Object {
+      "href": Object {},
+      "rel": "shortcut icon",
+      "type": "image/png",
+    },
+    Object {
+      "href": "//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic",
+      "rel": "stylesheet",
+    },
+    Object {
+      "href": "//cdn.rawgit.com/necolas/normalize.css/master/normalize.css",
+      "rel": "stylesheet",
+    },
+    Object {
+      "href": "//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css",
+      "rel": "stylesheet",
+    },
+  ],
+  "meta": Array [],
+  "titleTemplate": "%s - Thunderball Hello World",
+}
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="column"
+      >
+        <div>
+          <div>
+            Helmet Mock
+            Object {
+  "title": "TODO",
+}
+          </div>
+          <div>
+            <h1>
+              <span>
+                TODO
+              </span>
+            </h1>
+            <div>
+              <form>
+                <input
+                  value=""
+                />
+                <button
+                  type="submit"
+                >
+                  Add Todo
+                </button>
+              </form>
+            </div>
+            <div>
+              <div>
+                <input
+                  id="todo-0"
+                  type="checkbox"
+                />
+                <label
+                  class="label-inline"
+                  for="todo-0"
+                >
+                  Test AddTodo
+                </label>
+              </div>
+              <div>
+                <input
+                  id="todo-1"
+                  type="checkbox"
+                />
+                <label
+                  class="label-inline"
+                  for="todo-1"
+                >
+                  Test AddTodo 2
+                </label>
+              </div>
+            </div>
+            <div>
+              <span>
+                Show: 
+              </span>
+              <button
+                disabled=""
+                style="margin-left: 4px;"
+              >
+                All
+              </button>
+              <button
+                style="margin-left: 4px;"
+              >
+                Active
+              </button>
+              <button
+                style="margin-left: 4px;"
+              >
+                Completed
+              </button>
+            </div>
+            <hr />
+            <a
+              href="/"
+            >
+              Home
+            </a>
+             
+            &gt; Todos
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

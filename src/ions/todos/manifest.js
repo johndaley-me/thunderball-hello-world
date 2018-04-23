@@ -1,11 +1,12 @@
 module.exports = {
-  name: 'home',
+  name: 'todos',
   browser: {
     page: {
       createRoutes: './createRoutes',
-      path: '/*',
+      path: '/todos*',
       injectors: [
         '../../appInjectors',
+        './injectors',
       ],
     },
   },
