@@ -10,34 +10,34 @@
     "test": "jest --watch"
   },
   "dependencies": {
-    "prop-types": "^15.5.8",
+    "prop-types": "^15.6.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-helmet": "^5.0.3",
-    "react-hot-loader": "^4.1.1",
+    "react-hot-loader": "^4.3.3",
     "react-redux": "^5.0.7",
     "react-router": "^3.0.5",
     "recompose": "^0.23.1",
     "redux": "^3.7.2",
-    "thunderball": "*"
+    "thunderball": "^0.1.2"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.3",
+    "babel-eslint": "^8.2.5",
     "empty": "^0.10.1",
     "enzyme": "^2.9.1",
     "enzyme-to-json": "^2.0.0",
     "eslint-config-airbnb": "^15.1.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jest": "^21.0.2",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^21.17.0",
     "eslint-plugin-jsx-a11y": "^5.1.1",
-    "eslint-plugin-jsx-control-statements": "^2.2.0",
-    "eslint-plugin-react": "^7.3.0",
-    "eslint-plugin-thunderball": "*",
+    "eslint-plugin-jsx-control-statements": "^2.2.1",
+    "eslint-plugin-react": "^7.10.0",
+    "eslint-plugin-thunderball": "^0.1.2",
     "gulp": "^3.9.1",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^21.1.0",
     "react-test-renderer": "^15.5.4",
-    "redux-mock-store": "^1.5.1"
+    "redux-mock-store": "^1.5.3"
   },
   "peerDependencies": {
     "react-intl": "*"
